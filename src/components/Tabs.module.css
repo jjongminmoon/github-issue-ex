@@ -1,0 +1,27 @@
+.tabList {
+  display: flex;
+  padding: 0;
+}
+
+.tabList > li {
+  list-style-type: none;
+}
+
+.tab {
+  display: flex;
+  border: none;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.selected {
+  border-bottom: 2px solid #fa4549;
+  font-weight: 800;
+}
+
+.link {
+  text-decoration: none;
+}
